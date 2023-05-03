@@ -1,0 +1,530 @@
+@import url("fonts.css");
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--color5);
+}
+::-webkit-scrollbar-track {
+    background: linear-gradient(#e5e5e5, #ffffff);
+}
+:root {
+    font-size: 0.625rem;
+    --img-adaptive: center/cover no-repeat scroll;
+    --container-width: 1140px;
+    --color1: #111111;
+    --color2: #999999;
+    --color3: #808080;
+    --color4: #ffffff;
+    --color5: #E21836;
+}
+.container {
+    width: var(--container-width);
+    margin: 0 auto;
+    padding: 60px 0;
+    position: relative;
+}
+.link {
+    display: inline-block;
+    font: 700 1.4rem/1.2 "Open Sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--color5);
+    border-bottom: 2px solid transparent;
+    padding-left: 1px;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.link:hover {
+    border-bottom-color: var(--color5);
+}
+.logo {
+    object-fit: contain;
+    margin-bottom: 50px;
+}
+body {
+    position: relative;
+    background-color: #fff;
+}
+img {
+    object-fit: contain;
+    object-position: center;
+    height: auto;
+}
+a {
+    text-decoration: none;
+}
+ul,
+li {
+    list-style: none;
+}
+p,
+span,
+div > *,
+img[alt] {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    cursor: default;
+}
+p {
+    color: var(--color3);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 4.8rem;
+    line-height: 1;
+    cursor: default;
+}
+h4 {
+    font-size: 2rem;
+}
+
+
+/* ------------------
+        HEADER
+------------------- */
+.header {
+    background: linear-gradient(#e5e5e5, #ffffff);
+    position: relative;
+    padding: 0 1%;
+}
+.header .container {
+    padding: 70px 0;
+    min-height: 825px;
+    text-align: center;
+    position: static;
+}
+.header__content {
+    text-align: left;
+}
+.header__suptitle {
+    margin-bottom: 15px;
+    font: 400 2rem "NanumGothic", sans-serif;
+    color: var(--color2);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-left: 5px;
+}
+.header__title {
+    margin-bottom: 10px;
+    margin-left: 8px;
+    font-size: 9.6rem;
+    font-weight: 400;
+}
+.header__subtitle {
+    margin-left: 15px;
+    width: 40%;
+}
+.header__background-image {
+    position: absolute;
+    bottom: 0;
+    right: 120px;
+}
+
+
+/* ------------------
+        MAIN
+------------------- */
+.main {
+    overflow: hidden;
+}
+.main > * {
+    animation: animate-sections1 1.25s ease-in-out 0ms 1;
+}
+
+
+/* ------------------
+       GALLERY
+------------------- */
+.section-1 {
+    color: var(--color4);
+}
+.gallery {
+    font-size: 0;
+}
+.gallery__item {
+    display: inline-flex;
+    height: 506px;
+    width: calc(100% / 5);
+    padding: 0 1%;
+    background: var(--img-adaptive);
+}
+.gallery__text {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: "NanumGothic", sans-serif;
+    margin: auto auto 40px auto;
+    text-align: center;
+}
+.gallery__item-1 {
+    background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.1), rgba(10, 10, 10, 0.1)), url("../assets/images/1.jpg") ;
+}
+.gallery__item-2 {
+     background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.1), rgba(10, 10, 10, 0.1)), url("../assets/images/2.jpg");
+}
+.gallery__item-3 {
+     background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.1), rgba(10, 10, 10, 0.1)), url("../assets/images/3.jpg");
+}
+.gallery__item-4 {
+     background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.1), rgba(10, 10, 10, 0.1)), url("../assets/images/4.jpg");
+}
+.gallery__item-5 {
+     background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.1), rgba(10, 10, 10, 0.1)), url("../assets/images/5.jpg");
+}
+
+
+/* ------------------
+    NEW BALANCE 247
+------------------- */
+.nb-247 {
+    color: var(--color4);
+    background: var(--color4) url("../assets/images/NewBalance5746.jpg") center 20%/cover no-repeat scroll;
+    padding: 0 1%;
+}
+.nb-247 .container {
+    min-height: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.nb-247__wrapper {
+    width: 65%;
+    text-align: right;
+}
+.nb-247__suptitle {
+    margin-bottom: 20px;
+    font: 400 2rem "NanumGothic", sans-serif;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.nb-247__title {
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.nb-247__subtitle {
+    width: 70%;
+    color: var(--color4);
+    margin-bottom: 24px;
+    margin-left: auto;
+}
+
+/* ------------------
+        ABOUT
+------------------- */
+.about {
+    background: linear-gradient(#e5e5e5, #ffffff);
+    padding: 0 1%;
+    animation-name: animate-sections-1;
+}
+.about .container {
+    text-align: center;
+    padding: 100px 0 80px;
+    overflow: hidden;
+}
+.about__title {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.about__text {
+    line-height: 1.8;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+
+/* ------------------
+       PRODUCTS
+------------------- */
+.products {
+    animation-name: animate-sections2;
+}
+.products__box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+}
+.products__box-card {
+    min-height: 493px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+}
+.products__card-name {
+    color: var(--color3);
+    letter-spacing: 4px;
+    font-size: 1.6rem;
+}
+.products__card-price {
+    margin: 10px 0 8px;
+    color: var(--color1);
+    cursor: pointer;
+}
+.products__card-price:hover {
+    color: var(--color5);
+}
+.products__card-price_span {
+    cursor: pointer;
+}
+.products__box-card-1 {
+    background: var(--color4) url('../assets/images/card-1.jpg') var(--img-adaptive);
+}
+.products__box-card-2 {
+    background: var(--color4) url('../assets/images/card-2.jpg') var(--img-adaptive);
+}
+.products__box-card-3 {
+    background: var(--color4) url('../assets/images/card-3.jpg') var(--img-adaptive);
+}
+.products__box-card-4 {
+    background: var(--color4) url('../assets/images/card-4.jpg') var(--img-adaptive);
+}
+.products__box-card-5 {
+    background: var(--color4) url('../assets/images/card-5.jpg') var(--img-adaptive);
+}
+.products__box-card-6 {
+    background: var(--color4) url('../assets/images/card-6.jpg') var(--img-adaptive);
+}
+.products__box-card-7 {
+    background: var(--color4) url('../assets/images/card-7.jpg') var(--img-adaptive);
+}
+.products__box-card-8 {
+    background: var(--color4) url('../assets/images/card-8.jpg') var(--img-adaptive);
+}
+
+
+/* ------------------
+  BACKGROUND PICTURE
+------------------- */
+.bg-picture {
+    background: var(--color4) url('../assets/images/new-balance-img1.jpg') center/cover no-repeat scroll;
+    min-height: 900px;
+    animation-name: animate-sections0;
+}
+
+
+/* ------------------
+     WOMEN'S SET
+------------------- */
+.womenset__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "a b"
+    "a c";
+}
+.womenset__picture-left {
+    grid-area: a;
+    background: var(--color4) url('../assets/images/new-balance-img2.jpg') var(--img-adaptive);
+    min-height: 850px;
+}
+.womenset__content {
+    grid-area: b;
+    padding: 45px 5%;
+    text-align: center;
+    background: linear-gradient(#e5e5e5, #ffffff);
+}
+.womenset__suptitle {
+    margin-bottom: 20px;
+    font: 700 2rem "NanumGothic", sans-serif;
+    color: var(--color3);
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.womenset__title {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.womenset__subtitle {
+    margin-bottom: 25px;
+}
+.womenset__picture-bottom {
+    grid-area: c;
+    background: var(--color4) url('../assets/images/new-balance-img3.jpg') center/82.5% repeat scroll;
+}
+
+
+/* ------------------
+         KIDS
+------------------- */
+.kids {
+    background: linear-gradient(#e5e5e5, #ffffff);
+    padding: 0 1%;
+}
+.kids .container {
+    text-align: center;
+}
+.kids__title {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.kids__subtitle {
+    margin-bottom: 30px;
+}
+
+
+/* ------------------
+       SECTION 2
+------------------- */
+.section-2 {
+    animation-name: animate-sections3;
+}
+.section-2__box {
+    background: linear-gradient(#e5e5e5, #ffffff);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+.section-2__box-item {
+    text-align: center;
+    padding: 0 5%;
+    min-height: 561px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-2__item-title {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.section-2__item-subtitle {
+    margin-bottom: 25px;
+}
+.section-2__box-picture1 {
+    background: var(--color4) url('../assets/images/new-balance-img4.jpg') var(--img-adaptive);
+}
+.section-2__box-picture2 {
+    background: var(--color4) url('../assets/images/new-balance-img5.jpg') var(--img-adaptive);
+}
+
+
+/* ------------------
+       RELEASE
+------------------- */
+.release {
+    padding: 0 1%;
+    color: var(--color1);
+    background: var(--color4) url('../assets/images/new-balance-img6.jpg') var(--img-adaptive);
+    animation-name: animate-sections3;
+}
+.release .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 750px;
+}
+.release__text {
+    color: var(--color1);
+    width: 30%;
+    text-align: right;
+    margin: auto 0 0 auto;
+}
+
+
+/* ------------------
+        FOOTER
+------------------- */
+.footer {
+    background-color: var(--color4);
+    color: var(--color5);
+    min-height: 150px;
+    padding: 50px 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer__text {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.footer__logo {
+    margin-bottom: 12px;
+}
+.unvisible {
+    visibility: hidden!important;
+    animation-name: none;
+}
+.visible {
+    visibility: visible!important;
+}
+.btn {
+    position: fixed;
+    cursor: pointer;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    color: transparent;
+    border: 2px solid var(--color5);
+    border-radius: 50%;
+    transition: all 200ms ease-in-out 0s;
+    z-index: 99;
+}
+.btn:hover {
+    border-width: 20px;
+}
+
+/* Animations */
+@keyframes animate-sections0 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes animate-sections1 {
+    from {
+        opacity: 0;
+        transform: translateX(-150px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes animate-sections-1 {
+    from {
+        opacity: 0;
+        transform: translateX(150px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes animate-sections2 {
+    from {
+        opacity: 0;
+        transform: scale(0.825);
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes animate-sections3 {
+    from {
+        opacity: 0;
+        transform: translateY(150px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,97 @@
+/* ------------------
+      Open Sans
+------------------- */
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_Sans/OpenSans-Medium.eot');
+    src: url('../fonts/Open_Sans/OpenSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Open_Sans/OpenSans-Medium.woff') format('woff'),
+        url('../fonts/Open_Sans/OpenSans-Medium.ttf') format('truetype'),
+        url('../fonts/Open_Sans/OpenSans-Medium.svg#OpenSans-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_Sans/OpenSans-Bold.eot');
+    src: url('../fonts/Open_Sans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Open_Sans/OpenSans-Bold.woff') format('woff'),
+        url('../fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype'),
+        url('../fonts/Open_Sans/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/Open_Sans/OpenSans-Regular.eot');
+    src: url('../fonts/Open_Sans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Open_Sans/OpenSans-Regular.woff') format('woff'),
+        url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype'),
+        url('../fonts/Open_Sans/OpenSans-Regular.svg#OpenSans-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+/* ------------------
+     Nanum Gothic
+------------------- */
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('../fonts/Nanum_Gothic/NanumGothicBold.eot');
+    src: url('../fonts/Nanum_Gothic/NanumGothicBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nanum_Gothic/NanumGothicBold.woff') format('woff'),
+        url('../fonts/Nanum_Gothic/NanumGothicBold.ttf') format('truetype'),
+        url('../fonts/Nanum_Gothic/NanumGothicBold.svg#NanumGothicBold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NanumGothic';
+    src: url('../fonts/Nanum_Gothic/NanumGothic.eot');
+    src: url('../fonts/Nanum_Gothic/NanumGothic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Nanum_Gothic/NanumGothic.woff') format('woff'),
+        url('../fonts/Nanum_Gothic/NanumGothic.ttf') format('truetype'),
+        url('../fonts/Nanum_Gothic/NanumGothic.svg#NanumGothic') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+/* ------------------
+        Ubuntu
+------------------- */
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Medium.eot');
+    src: url('../fonts/Ubuntu/Ubuntu-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu/Ubuntu-Medium.woff') format('woff'),
+        url('../fonts/Ubuntu/Ubuntu-Medium.ttf') format('truetype'),
+        url('../fonts/Ubuntu/Ubuntu-Medium.svg#Ubuntu-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Regular.eot');
+    src: url('../fonts/Ubuntu/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu/Ubuntu-Regular.woff') format('woff'),
+        url('../fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype'),
+        url('../fonts/Ubuntu/Ubuntu-Regular.svg#Ubuntu-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu-Bold.eot');
+    src: url('../fonts/Ubuntu/Ubuntu-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Ubuntu/Ubuntu-Bold.woff') format('woff'),
+        url('../fonts/Ubuntu/Ubuntu-Bold.ttf') format('truetype'),
+        url('../fonts/Ubuntu/Ubuntu-Bold.svg#Ubuntu-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
